@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>screen</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="d-flex">
+        <nav class="margin-left-5">
+            <div class="bars cursor-pointer" onclick="navfunction()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+
+        <img src="./images/spotknacklogo.png" class="logo-img">
+
+        <input type="search" placeholder="search" class="search">
+
+        <img src="images/profile.jpeg" class="profile-img cursor-pointer" onclick="profunction()">
+        <ul id="pro-list">
+            <li>Home</li>
+            <li>settings</li>
+            <li>Profile</li>
+            <li>Settings</li>
+            <li>Profile</li>
+        </ul>
+    </header>
+
+    <div class="d-flex margin-left-5">
+        <div>
+            <ul id="navicons">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+        
+        <div class="margin-auto">
+            <div class="d-flex text-center duration margin-y">
+                <div class="cursor-pointer font-bold">This week </div>&nbsp;|&nbsp;
+                <div class="cursor-pointer">Last Month</div>&nbsp;|&nbsp;
+                <div class="cursor-pointer">Life Time</div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <section class="d-flex space-between h150">
+                        <div>
+                            <h2>Weekly Sales</h2>
+                            <h1 class="font-120 margin-auto">2.25k</h1>
+                            <p class="green badge">+ 2 4 % </p>
+                        </div>
+                        <div class="d-flex margin-x ">
+                            <div class="progress"></div>
+                            <div class="progress"></div>
+                            <div class="progress"></div>
+                            <div class="progress"></div>
+                            <div class="progress"></div>
+                            <div class="progress"></div>
+                            <div class="progress"></div>
+                        </div>
+                    </section>
+                    <section class="h150">
+                        <h2>Market Share</h2>
+                        <div class="d-flex space-between">
+                            <div class="line-height2">
+                                <div class="d-flex"><div class="blue-ball brand1"></div><div class="margin-left-1">Brand 1</div></div>
+                                <div class="d-flex"><div class="blue-ball brand2"></div><div class="margin-left-1">Brand 2</div></div>
+                                <div class="d-flex"><div class="blue-ball brand3"></div><div class="margin-left-1">Brand 3</div></div>
+                            </div>
+                            <div class="line-height2">
+                                <div>33%</div>
+                                <div>20%</div>
+                                <div>12%</div>
+                            </div>
+                            <div class="box-1">
+                                <div class="percent">
+                                    <svg class="h100">
+                                        <circle cx="40" cy="40" r="35"/>
+                                        <circle cx="40" cy="40" r="35"/>
+                                        <circle cx="40" cy="40" r="35"/>
+                                        <circle cx="40" cy="40" r="35"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <aside class="d-flex">
+                        <div>
+                        <h5>Active Users</h5>
+                        <figure class="d-flex ml-auto"><img src="images/img-1.jpg" class="img-icon"> <figcaption>Emma Watson</figcaption></figure>
+                        <figure class="d-flex ml-auto"><img src="images/img-2.jpeg" class="img-icon"><figcaption>Emma Watson</figcaption> </figure>
+                        <figure class="d-flex ml-auto"><img src="images/img-3.jpg" class="img-icon"><figcaption>Emma Watson</figcaption></figure>
+                        <figure class="d-flex ml-auto"><img src="images/img-4.jpeg" class="img-icon"><figcaption>Emma Watson</figcaption></figure>
+                        <figure class="d-flex ml-auto"><img src="images/img-5.jpg" class="img-icon"> <figcaption>Emma Watson</figcaption></figure>
+                        </div>
+                    </aside>
+                </div>
+                <div class="column">
+                    <section class="d-flex space-between h150">
+                        <div>
+                            <h2>Total Orders</h2>
+                            <h1 class="font-120 margin-auto">120</h1>
+                            <p class="blue badge">+ 2 4 % </p>
+                        </div>
+                        <div>
+                            <svg class="h100">
+                                <path d="M 10 130 C 40 -10, 65 10, 95 80 S 150 150, 180 80" stroke="#319cea" fill="transparent" />
+                            </svg>
+                        </div>
+                    </section>
+                    <section class="d-flex h150">
+                        <div>
+                            <h4 class="text-orange">Running out of Storage Space ?</h4>
+                            <p class="margin-x">Your storage will be running out soon. Get more space and powerful productivity features.</p>
+                            <h4 class="text-orange margin-x">Upgrade Storage</h4>
+                        </div>
+                    </section>
+                    <aside>
+                        <h5>Active Users</h5>
+                        <div class="box pb-4">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"/>
+                                    <circle cx="70" cy="70" r="70"/>
+                                </svg>
+                                <div class="number">
+                                    <h2>93%</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
